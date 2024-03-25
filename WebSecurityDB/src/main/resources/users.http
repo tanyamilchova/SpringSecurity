@@ -1,0 +1,12 @@
+#4 login user
+POST http://localhost:8084/logina
+Content-Type: application/json
+
+{
+  "email": "margot11margot11@gmail.com",
+  "password": "123456Sbb#"
+}
+###
+#8 get user by id
+GET http://localhost:8084/users/1
+Content-Type: application/json
